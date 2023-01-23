@@ -7,8 +7,98 @@
   <title>Css starter</title>
   <link rel="stylesheet" href="/Css/normalize.css">
   <link rel="stylesheet" href="/Css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="">
+  <header class="site-header">
+    <div class="container site-header-container">
+      <h1 class="site-header-heading">Where in the world?</h1>
+      <span class="dark-wrapper">
+        <a href="#" class="site-header-link">Dark Mode</a>
+      </span>
+    </div>
+  </header>
+  <main class="main-content">
+    <section class="form">
+      <div class="container form-container">
+        <form action="echo.htmlacademy.ru" class="search-form-wrapper" >
+          <input type="search" class="search-form" placeholder="Search for a country...">
+        </form>
+        <div class="custom-select">
+          <select class="custom-wrapper">
+            <option value="0">Filter by Region</option>
+            <option value="1">Africa</option>
+            <option value="2">America</option>
+            <option value="3">Asia</option>
+            <option value="4">Europe</option>
+            <option value="5">Oceania</option>
+          </select>
+        </div>
+      </div>
+    </section>
+    <section class="flags-section container">
+      <div class="flag-wrapper container">
+        <img src="/img/germaniya.svg" alt="flag germany" class="flag-wrapper-img">
+        <div class="flag-wrapper-info">
+          <h2 class="subtitle">Germany</h2>
+          <p class="title">Population:81.770.900 <br><br>Region:Europe <br><br> Capital:Berlin</p>
+        </div>
+      </div>
+      <div class="flag-wrapper container">
+        <img src="/img/america.svg" alt="flag germany" class="flag-wrapper-img">
+        <div class="flag-wrapper-info">
+          <h2 class="subtitle">America</h2>
+          <p class="title">Population:323.947.000 <br><br>Region:Americans <br><br> Capital:Washington D.C</p>
+        </div>
+      </div>
+      <div class="flag-wrapper container">
+        <img src="/img/brazilya.svg" alt="flag brazil" class="flag-wrapper-img">
+        <div class="flag-wrapper-info">
+          <h2 class="subtitle">Brazil</h2>
+          <p class="title">Population:323.947.000 <br><br>Region:Americans <br><br> Capital:Brazsila</p>
+        </div>
+      </div>
+      <div class="flag-wrapper container">
+        <img src="/img/iceland.svg" alt="flag brazil" class="flag-wrapper-img">
+        <div class="flag-wrapper-info">
+          <h2 class="subtitle">Iceland</h2>
+          <p class="title">Population:334.300.000 <br><br>Region:Europe <br><br> Capital:Brazsila</p>
+        </div>
+      </div>
+    </section>
+    <section class="flags-section-bottom container">
+      <div class="flag-wrapper container">
+        <img src="/img/afganistan.svg" alt="flag afghanistan" class="flag-wrapper-img">
+        <div class="flag-wrapper-info">
+          <h2 class="subtitle">Afghanistan</h2>
+          <p class="title">Population:27.657.145 <br><br>Region:Asia <br><br> Capital:Kabul</p>
+        </div>
+      </div>
+      <div class="flag-wrapper container">
+        <img src="/img/aland island.svg" alt="flag aland island" class="flag-wrapper-img">
+        <div class="flag-wrapper-info">
+          <h2 class="subtitle">Aland Islands</h2>
+          <p class="title">Population:28.875 <br><br>Region:Europe <br><br> Capital:Mariehamn</p>
+        </div>
+      </div>
+      <div class="flag-wrapper container">
+        <img src="/img/albaniya.svg" alt="flag Albaniya" class="flag-wrapper-img">
+        <div class="flag-wrapper-info">
+          <h2 class="subtitle">Albania</h2>
+          <p class="title">Population:2.886.026 <br><br>Region:Europe <br><br> Capital:Triana</p>
+        </div>
+      </div>
+      <div class="flag-wrapper container">
+        <img src="/img/Algeriya (1).svg" alt="flag Algeriya" class="flag-wrapper-img">
+        <div class="flag-wrapper-info">
+          <h2 class="subtitle">Algeria</h2>
+          <p class="title">Population:40.400.000 <br><br>Region:Africa <br><br> Capital:Algiers</p>
+        </div>
+      </div>
+    </section>
+  </main>
   <script src="/js/main.js"></script>
 </body>
 </html>
